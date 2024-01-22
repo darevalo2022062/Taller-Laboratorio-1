@@ -1,0 +1,19 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.containerBar{
+    background-color: #638889;
+    display: block;
+    color: white;
+}
+
+.containerBar ul{
+    list-style: none;
+    
+}
+
+.container a{
+    
+}
