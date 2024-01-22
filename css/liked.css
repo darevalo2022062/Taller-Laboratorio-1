@@ -1,19 +1,52 @@
-body{
-margin: 0;
-padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.containerBar{
+h1,
+h2,
+h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p,
+a,
+li {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 0%;
     background-color: #638889;
-    display: block;
-    color: white;
 }
 
-.containerBar ul{
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
     list-style: none;
-    
+    display: flex;
 }
 
-.container a{
-    
+header li {
+    margin-right: 30%;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
 }
