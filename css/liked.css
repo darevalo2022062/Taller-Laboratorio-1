@@ -61,3 +61,38 @@ body {
     font-size: 32px;
 }
 
+.container {
+    display: flex;
+}
+
+.text {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.text p{
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.text h3{
+    text-align: center;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 8px;
+}
