@@ -1,34 +1,17 @@
 body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Quicksand', sans-serif;
-}
-
-h4,
-h5,
-h6 {
-    font-family: 'Rubik', sans-serif;
-}
-
-p,
-a,
-li {
-    font-family: 'Poppins', sans-serif;
-}
-
 header {
-    padding: 0%;
-    background-color: #638889;
-}
-
-.logo {
-    font-size: 1.5em;
-    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.3s ease;
 }
 
 nav {
@@ -37,16 +20,23 @@ nav {
     align-items: center;
 }
 
-header ul {
+.imageLogo img {
+    max-height: 50px;
+}
+
+ul {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-header li {
-    margin-right: 30%;
+li {
+    margin-right: 20px;
 }
 
-header a {
+a {
     text-decoration: none;
     color: #fff;
+    transition: color 0.3s ease;
 }
