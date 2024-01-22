@@ -2,41 +2,61 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #333;
+    background-color: #1c1c1c;
     color: #fff;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    transition: background-color 0.3s ease;
 }
 
-nav {
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
-.imageLogo img {
-    max-height: 50px;
+.logo img {
+    max-height: 40px;
 }
 
-ul {
+.nav-list {
     list-style: none;
     display: flex;
     margin: 0;
+    margin-right: 5%;
     padding: 0;
 }
 
-li {
+.nav-list li {
     margin-right: 20px;
 }
 
-a {
+.nav-list a {
     text-decoration: none;
     color: #fff;
+    font-size: 16px;
     transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #ffd700;
+}
+
+.hero {
+    background-image: url('https://www.elnacional.cat/uploads/s1/19/87/58/04/calistenia.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 32px;
 }
