@@ -227,25 +227,63 @@ body {
 /*album*/
 
 .album {
-    display: grid;
-    padding: 0;
-    margin: 0;
+    display: block;
+    text-align: center;
 }
 
-.vid{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    margin-bottom: 4%;
+.vid {
+    margin-bottom: 3vh;
+}
+
+.album video{
+    border-radius: 10px;
 }
 
 @media only screen and (min-width: 768px) {
 
     .album {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, auto);
+        padding-top: 5vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .vid{
+        margin: auto;
+        padding: 4%;
+        background-color: #1c1c1c;
+        border-radius: 15px;
+        transition: background-color 0.3s ease;
+    }
+
+    .album video{
+        border-radius: 10px;
+    }
+
+    .album-section{
+        align-content: center;
         text-align: center;
     }
+
+    .album-section h2{
+        margin-top: 3%;
+    }
+
+    .vid:hover{
+        background-color: #555;
+        transition: background-color 0.3s ease;
+    }
+
+}
+
+/* "Footer" */
+
+.foot{
+    margin-top: 5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    border-radius: 10px 10px;
 }
