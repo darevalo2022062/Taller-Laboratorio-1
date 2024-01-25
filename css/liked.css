@@ -6,6 +6,7 @@ body {
     color: #fff;
 }
 
+/*Barra de navegación*/
 .navbar {
     background-color: #333;
     padding: 10px 20px;
@@ -44,6 +45,8 @@ body {
     color: #ffd700;
 }
 
+/*HERO*/
+
 .hero {
     background-image: url('https://www.elnacional.cat/uploads/s1/19/87/58/04/calistenia.jpeg');
     background-size: cover;
@@ -61,19 +64,121 @@ body {
     font-size: 32px;
 }
 
-.container{
-    display: flex;
+/*Contenedor 1*/
+
+.container {
     text-align: justify;
-    align-items: center;
     margin: 5%;
 }
 
-.container p{
-    margin-right:10vh ;
+.container p {
+    margin-bottom: 10px;
 }
 
-.container img{
-    margin: 2%;
-    width: 34%;
+.container img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .container p {
+        margin-right: 10vh;
+        margin-bottom: 0;
+    }
+
+    .container img {
+        max-width: 40%;
+    }
+}
+
+/*Contenedor 2*/
+
+.container-2 {
+    text-align: justify;
+    margin: 5%;
+}
+
+.container-2 p {
+    margin-bottom: 10px;
+}
+
+.container-2 img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container-2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .container-2 p {
+        margin-left: 10vh;
+        margin-bottom: 0;
+    }
+
+    .container-2 img {
+        max-width: 40%;
+    }
+
+    .container-2 h3 {
+        text-align: right;
+    }
+}
+
+/*Beneficios de la calistenia*/
+
+.beneficios {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.grid-benef ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+}
+
+.grid-benef li {
+    background-color: #555;
+    padding: 15px;
     border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.grid-benef h4 {
+    margin-bottom: 10px;
+}
+
+.grid-benef p {
+    margin-bottom: 0;
+}
+
+.grid-benef li:hover {
+    background-color: #666;
+}
+
+.beneficios.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
