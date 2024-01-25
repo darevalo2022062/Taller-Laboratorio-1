@@ -12,5 +12,5 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     window.addEventListener('scroll', handleVisibility);
-    handleVisibility(); // Asegura que la función se ejecute al cargar la página
+    handleVisibility();
 });
