@@ -224,6 +224,52 @@ body {
     }
 }
 
+/*Equipamento*/
+
+.equipamentp-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.equipamentp-section h2{
+    margin-bottom: 5%;
+}
+
+.album-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+}
+
+.card h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #1c1c1c;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
 /*album*/
 
 .album {
@@ -235,7 +281,7 @@ body {
     margin-bottom: 3vh;
 }
 
-.album video{
+.album video {
     border-radius: 10px;
 }
 
@@ -248,28 +294,28 @@ body {
         grid-template-rows: repeat(1, 1fr);
     }
 
-    .vid{
-        margin: auto;
-        padding: 4%;
+    .vid {
+        padding: 1%;
         background-color: #1c1c1c;
         border-radius: 15px;
         transition: background-color 0.3s ease;
     }
 
-    .album video{
+    .album video {
         border-radius: 10px;
     }
 
-    .album-section{
+    .album-section {
         align-content: center;
         text-align: center;
     }
 
-    .album-section h2{
+    .album-section h2 {
         margin-top: 3%;
+        padding-top: 5%;
     }
 
-    .vid:hover{
+    .vid:hover {
         background-color: #555;
         transition: background-color 0.3s ease;
     }
@@ -278,7 +324,7 @@ body {
 
 /* "Footer" */
 
-.foot{
+.foot {
     margin-top: 5%;
     background-color: black;
     display: flex;
