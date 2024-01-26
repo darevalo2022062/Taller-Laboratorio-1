@@ -217,7 +217,7 @@ html {
 /*Pyroyectos*/
 
 .projects-section {
-    margin-top: 90vh;
+    margin-top: 50vh;
     justify-content: center;
     text-align: center;
     background-color: #333;
@@ -283,6 +283,7 @@ html {
 
     display: flex;
     overflow-x: auto;
+    justify-content: center;
     scroll-snap-type: x mandatory;
     white-space: nowrap;
     padding: 20px;

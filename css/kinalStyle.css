@@ -9,10 +9,6 @@ html {
 }
 
 
-.hidden {
-    display: none;
-}
-
 /*Barra de navegación*/
 .navbar {
     background-color: #333;
@@ -22,11 +18,19 @@ html {
     align-items: center;
     position: fixed;
     width: 100%;
+    height: 7.1vh;
     z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
     max-height: 40px;
+    margin-left: 15%;
 }
 
 .nav-list {
@@ -106,3 +110,57 @@ html {
 }
 
 
+/*Hero*/
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("https://static.wixstatic.com/media/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg/v1/fill/w_1646,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg");
+    height: 80vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Ajustamos la imagen para que cubra todo el contenedor */
+    position: relative;
+}
+
+.hero-text {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text button {
+    height: 5vh;
+    width: 30%;
+    border-radius: 8px;
+    text-decoration: none;
+    border-width: 0;
+    background-color: #7858db;
+    box-shadow: 5px 5px 2px 3px;
+}
+
+.hero-text button:hover {
+    background-color: #4e4596;
+    transform: scale(1) translate(5%, 3%);
+}
+
+.hero-text button:active {
+    transform: scale(1) translate(6%, 4%);
+}
+
+
+/*"Footer"*/
+.foot {
+    margin-top: 5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    border-radius: 10px 10px;
+}

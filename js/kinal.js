@@ -3,14 +3,12 @@ document.getElementById('toggle-menu').addEventListener('click', function () {
 });
 
 function mostrarSeccion(idSeccion) {
-    // Ocultar todas las secciones
     var secciones = document.querySelectorAll('.hidden');
     secciones.forEach(function (seccion) {
         seccion.style.display = 'none';
     });
 
-    // Mostrar la sección específica
     var seccion = document.getElementById(idSeccion);
-    seccion.style.display = 'block';
+    seccion.style.display = 'flex';
 }
 
