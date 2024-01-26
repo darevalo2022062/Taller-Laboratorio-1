@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kinal</title>
+    <link rel="stylesheet" href="/css/kinalStyle.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h2>Portafolio</h2>
+        </div>
+        <ul class="nav-list">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/html/portafolio.html">Portafolio</a></li>
+            <li><a href="/html/kinal.html">Kinal</a></li>
+        </ul>
+    </nav>
+
+    <div id="inicio" class="hidden">
+        <h2>¡Bienvenido a nuestro sitio web!</h2>
+        <p>Esta es la página de inicio.</p>
+    </div>
+
+    
+
+    <div id="menu" class="menu-circular">
+        <button id="toggle-menu" class="toggle-btn">Menú</button>
+        <ul class="menu-list">
+            <li><a href="#" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+            <li><a href="#" onclick="mostrarSeccion('acerca')">Acerca</a></li>
+            <li><a href="#tecnos">Skill</a></li>
+            <li><a href="#form">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="acerca" class="hidden">
+        <h2>Acerca de nosotros</h2>
+        <p>Somos una empresa dedicada a...</p>
+    </div>
+
+    <div id="contacto" class="hidden">
+        <h2>Contáctanos</h2>
+        <p>Puedes contactarnos al correo electrónico...</p>
+    </div>
+
+    <script src="/js/kinal.js"></script>
+
+</body>
+
+</html>

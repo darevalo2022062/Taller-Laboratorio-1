@@ -54,9 +54,9 @@ html {
     bottom: 20px;
     right: 20px;
     z-index: 1000;
-  }
-  
-  .toggle-btn {
+}
+
+.toggle-btn {
     background-color: #003077;
     color: #fff;
     border: none;
@@ -65,42 +65,42 @@ html {
     height: 60px;
     cursor: pointer;
     outline: none;
-  }
-  
-  .menu-list {
+}
+
+.menu-list {
     list-style: none;
     padding: 0;
     margin: 0;
     display: none;
     position: absolute;
-    bottom: 70px; /* Ajusta la distancia desde el botón Menú */
+    bottom: 70px;
     right: 0;
-  }
-  
-  .menu-list li {
+}
+
+.menu-list li {
     transform: translateY(200%);
     background-color: #003077;
     margin-bottom: 5px;
     border-radius: 8px;
     width: 10vh;
     padding: 5px;
-  }
+}
 
-  .menu-list a{
+.menu-list a {
     font-style: normal;
     text-decoration: none;
     color: aliceblue;
-  }
+}
 
-  .menu-list.active {
+.menu-list.active {
     display: block;
-  }
-  
-  .menu-list.active li {
+}
+
+.menu-list.active li {
     transition: transform 0.3s ease;
     transform: translateY(0);
-  }
-  
+}
+
 
 /*Hero*/
 .hero-image {
