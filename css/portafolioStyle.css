@@ -48,6 +48,60 @@ html {
     color: #ffd700;
 }
 
+/*Menú*/
+.menu-circular {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .toggle-btn {
+    background-color: #3a72c5;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    bottom: 70px; /* Ajusta la distancia desde el botón Menú */
+    right: 0;
+  }
+  
+  .menu-list li {
+    transform: translateY(200%);
+    background-color: #3a72c5;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    width: 10vh;
+    padding: 5px;
+  }
+
+  .menu-list a{
+    font-style: normal;
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .menu-list.active {
+    display: block;
+  }
+  
+  .menu-list.active li {
+    transition: transform 0.3s ease;
+    transform: translateY(0);
+  }
+  
+
 /*Hero*/
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/07/duda-resuelta-existen-tantos-lenguajes-programacion-3079266.jpg?tf=3840x");
@@ -274,6 +328,23 @@ html {
     opacity: 1;
 }
 
+.container-tittle {
+    display: grid;
+    place-items: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+#informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #5c5a5a;
+    padding: 50px;
+    border-radius: 8px;
+    max-width: 50%;
+}
 
 /*Contacto*/
 .container {
@@ -285,6 +356,7 @@ html {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
 }
 
 form {
@@ -318,7 +390,7 @@ textarea {
     background-color: #2980b9;
 }
 
-.container label{
+.container label {
     color: black;
 }
 
