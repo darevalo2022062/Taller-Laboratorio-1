@@ -57,7 +57,7 @@ html {
   }
   
   .toggle-btn {
-    background-color: #3a72c5;
+    background-color: #003077;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -79,7 +79,7 @@ html {
   
   .menu-list li {
     transform: translateY(200%);
-    background-color: #3a72c5;
+    background-color: #003077;
     margin-bottom: 5px;
     border-radius: 8px;
     width: 10vh;
