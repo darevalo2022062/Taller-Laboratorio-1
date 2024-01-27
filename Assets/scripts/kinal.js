@@ -1,14 +1,11 @@
-document.getElementById('toggle-menu').addEventListener('click', function () {
-    document.querySelector('.menu-list').classList.toggle('active');
-});
 
-function mostrarSeccion(idSeccion) {
-    var secciones = document.querySelectorAll('.hidden');
-    secciones.forEach(function (seccion) {
-        seccion.style.display = 'none';
-    });
+function mostrarOtraSeccion(idSeccion) {
+    var seccionPrincipal = document.getElementById('principal');
+    var otraSeccion = document.getElementById(idSeccion);
 
-    var seccion = document.getElementById(idSeccion);
-    seccion.style.display = 'flex';
+    otraSeccion.style.display = 'block';
+    seccionPrincipal.style.display = 'none';
+
+    
 }
 
