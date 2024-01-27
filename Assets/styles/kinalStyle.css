@@ -362,6 +362,56 @@ html {
     }
 }
 
+/*NOTAS*/
+.contenedor-barra-notas {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+
+.barra-notas {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap; /* Para evitar que las notas se dividan en varias líneas */
+    overflow-x: auto; /* Habilitar la barra de desplazamiento horizontal */
+    width: 100%; /* Para forzar el ancho del contenedor de la barra de notas */
+}
+
+.contenedor-notas {
+    white-space: nowrap; /* Para evitar que las notas se dividan en varias líneas */
+    padding: 10px;
+    display: inline-block;
+}
+
+.nota {
+    display: inline-block;
+    width: 280px;
+    background-color: #f9f9f9;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    vertical-align: top;
+}
+
+.nota h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.nota p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.nota img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
 /*Partners*/
 .partners {
     margin-top: 8vh;
@@ -747,4 +797,41 @@ img {
 .Kinal-sponsors-image img {
     max-width: 100%;
     height: auto;
+}
+
+/*BOTON DONACIÓN*/
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+}
+
+.cerrar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }

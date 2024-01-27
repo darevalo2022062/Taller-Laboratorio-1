@@ -34,8 +34,24 @@ function mostrarOtraSeccion(idSeccion) {
         quinesSomos.style.display = 'none';
     }
 
+    irHastaArriba();
 
+}
 
+function mostrarPopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "block";
+}
 
+function cerrarPopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "none";
+}
+
+function irHastaArriba() {
+    window.scrollTo({
+        top: 0,
+        behavior: "auto" 
+    });
 }
 

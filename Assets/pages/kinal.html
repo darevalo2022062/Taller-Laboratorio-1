@@ -12,6 +12,8 @@
 
 <body>
 
+    <!--BARRA DE NAVEGACIÓN-->
+
     <nav class="navbar">
         <div class="logo">
             <a href="/Assets/pages/kinal.html"><img
@@ -32,6 +34,8 @@
             <li><a href="/Assets/pages/kinal.html">Kinal</a></li>
         </ul>
     </nav>
+
+    <!--PAGINA PRINCIPAL DE KINAL-->
 
     <div id="principal">
         <div class="hero-image" id="hero">
@@ -135,7 +139,27 @@
                     <p>Cada donación que haces ayuda a la educación de un joven guatemalteco de escasos recursos a tener
                         una
                         educación de calidad.</p>
-                    <button><i class="fa-solid fa-heart"></i> Donar</i></button>
+                    <button onclick="mostrarPopup()"><i class="fa-solid fa-heart"></i> Donar</i></button>
+                </div>
+            </div>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span class="cerrar" onclick="cerrarPopup()">&times;</span>
+                    <h2>¡Haz tu donación!</h2>
+                    <form action="/procesar_donacion" method="POST">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" required><br>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" required><br>
+                        <label for="tarjeta">Número de tarjeta:</label><br>
+                        <input type="text" id="tarjeta" name="tarjeta" placeholder="**** **** **** ****" required><br>
+                        <label for="vencimiento">Fecha de vencimiento:</label><br>
+                        <input type="text" id="vencimiento" name="vencimiento" placeholder="MM/YY" required><br>
+                        <label for="cvv">CVV:</label><br>
+                        <input type="password" id="cvv" name="cvv" placeholder="***" maxlength="3" required><br><br>
+                        <input type="number" id="monto" name="monto" placeholder="Monto a donar" required><br><br>
+                        <input type="submit" value="Donar">
+                    </form>
                 </div>
             </div>
         </section>
@@ -190,7 +214,51 @@
             </div>
         </section>
 
+        <div class="contenedor-barra-notas">
+            <h2 style="text-align: center;">NOTAS</h2>
+            <div class="barra-notas">
+                <div class="contenedor-notas">
+                    <div class="nota">
+                        <h3>Mensaje semanal #4 Patronato Kinal</h3>
+                        <img src="https://static.wixstatic.com/media/128120_e73f74012783488c9292f26acb3f6e5c~mv2.jpg/v1/fill/w_568,h_426,fp_0.50_0.50,q_90,enc_auto/128120_e73f74012783488c9292f26acb3f6e5c~mv2.jpg"
+                            alt="">
+                    </div>
+                    <div class="nota">
+                        <h3>Mensaje Semanal #3 | Patronato Kinal</h3>
+                        <img src="https://static.wixstatic.com/media/128120_41ce27bcf9184c7daf1f2655978b6152~mv2.jpg/v1/fill/w_568,h_426,fp_0.50_0.50,q_90,enc_auto/128120_41ce27bcf9184c7daf1f2655978b6152~mv2.jpg"
+                            alt="Imagen 1">
+                    </div>
+                    <div class="nota">
+                        <h3>Mensaje Semanal #2 | Patronato Kinal</h3>
+                        <img src="https://static.wixstatic.com/media/128120_0ae3119d551f411480bafc1de5266bd7~mv2.jpg/v1/fill/w_568,h_426,fp_0.50_0.50,q_90,enc_auto/128120_0ae3119d551f411480bafc1de5266bd7~mv2.jpg"
+                            alt="Imagen 2">
+                    </div>
+                    <div class="nota">
+                        <h3>Mensaje Semanal #49 | Patronato Kinal</h3>
+                        <img src="https://static.wixstatic.com/media/128120_31d7eae3d4494fac9fda69f45566746e~mv2.jpeg/v1/fill/w_568,h_426,fp_0.50_0.50,q_90,enc_auto/128120_31d7eae3d4494fac9fda69f45566746e~mv2.jpeg"
+                            alt="">
+                    </div>
+                    <div class="nota">
+                        <h3>Mensaje Semanal #48 | Patronato Kinal</h3>
+                        <img src="https://static.wixstatic.com/media/128120_bdbc597aa8534547a501d938f70c112a~mv2.webp"
+                            alt="">
+                    </div>
+                    <div class="nota">
+                        <h3>Mensaje Semanal #46 | Patronato Kinal</h3>
+                        <img src="https://static.wixstatic.com/media/128120_17c883c8deeb49c8938f5219053eb7ce~mv2.jpeg/v1/fill/w_568,h_426,fp_0.50_0.50,q_90,enc_auto/128120_17c883c8deeb49c8938f5219053eb7ce~mv2.jpeg"
+                            alt="Imagen 2">
+                    </div>
+                    <div class="nota">
+                        <h3>Mensaje Semanal #45 | Patronato Kinal</h3>
+                        <img src="https://static.wixstatic.com/media/128120_6b0a17caf5f941c0be79e9e2ed18a063~mv2.jpg/v1/fill/w_568,h_426,fp_0.50_0.50,q_90,enc_auto/128120_6b0a17caf5f941c0be79e9e2ed18a063~mv2.jpg"
+                            alt="Imagen 2">
+                    </div>
+                </div>
+            </div>
+        </div>
 
+
+        </section>
 
         <section class="footer">
             <div class="foot">
@@ -212,6 +280,8 @@
             </div>
         </section>
     </div>
+
+    <!--APARTADO DE QUIENES SOMOS-->
 
     <div id="Quienes-Somos" class="hidden">
 
@@ -306,6 +376,8 @@
         </section>
 
     </div>
+
+    <!--APARTADO DE EDUCACIÓN-->
 
     <div id="educacion" class="hidden">
 
@@ -753,6 +825,8 @@
         </section>
     </div>
 
+    <!--APARTADO DE SPONSORS-->
+
     <div id="sponsors" class="hidden">
         <div class="espacio"></div>
 
@@ -815,6 +889,8 @@
             </div>
         </section>
     </div>
+
+    <!--APARTADO DE TRABAJOS-->
 
     <div id="trabajo" class="hidden">
 

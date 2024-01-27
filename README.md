@@ -12,3 +12,5 @@ Educación: Todas las subpáginas de “Educación” fuero puestas dentro de un
 Sponsors: En este aportado se sigue con el mismo diseño que la pagina original o casi, únicamente retirando de aquí los "Partners", ya que no veo la necesidad de definirlos aquí si la página trata a cerca de "Sponsors".
 
 Trabajo: en el apartado de trabajos se decidió por usar una estética de CARDS, para que fuera mas fácil la visualización del contenido y centrando todo para solucionar el error en la pagina original, al ser así se permite ver una mayor cantidad de elementos en línea.
+
+Blog: No le veo la necesidad al dicho, la mayoría de notas no tienen gran cantidad de visualizaciones, entonces a considerar me parece un poco ineficiente dedicarle una sección, el remplazo de esto serian notas directamente colocadas dentro de la página principal.
