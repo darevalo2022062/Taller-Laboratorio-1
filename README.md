@@ -8,3 +8,7 @@ Página principal: Se realizó un Hero más presente dentro de la página, añad
 Quiénes somos: Se estructuro un nuevo diseño de pagina, utilizando elementos de la página original, todo el contenido se implmento dentro de una misma área en vez de tener un menú desplegable. Se limita la realización de el área de "Press Kit", ya que se contiene toda la información que necesita dentro de la misma página ya existente.
 
 Educación: Todas las subpáginas de “Educación” fuero puestas dentro de una misma unidad, esto para simplificar el diseño, se mantuvo una estética similar, manteniendo imágenes y colores de la pagina original, pero haciendo cambios sutiles en separaciones de contenedores y definiendo mejor los párrafos para una lectura mejor.
+
+Sponsors: En este aportado se sigue con el mismo diseño que la pagina original o casi, únicamente retirando de aquí los "Partners", ya que no veo la necesidad de definirlos aquí si la página trata a cerca de "Sponsors".
+
+Trabajo: en el apartado de trabajos se decidió por usar una estética de CARDS, para que fuera mas fácil la visualización del contenido y centrando todo para solucionar el error en la pagina original, al ser así se permite ver una mayor cantidad de elementos en línea.

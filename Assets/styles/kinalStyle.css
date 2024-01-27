@@ -575,27 +575,6 @@ html {
 
 }
 
-.basicos-ini h3,
-.basicos-ini p,
-.basicos-ini h2 {
-    color: #7c0c44;
-}
-
-.basicos-ini button{
-    background-color:#7c0c44 ;
-}
-
-.diver-ini h3,
-.diver-ini p,
-.diver-ini h2 {
-    color: #24346c;
-}
-
-.diver-ini button{
-    background-color: #24346c;
-}
-
-
 .kinal-educacion-botones {
     display: flex;
     justify-content: center;
@@ -701,6 +680,71 @@ img {
     background-color: #24346c;
 }
 
-.escuela{
-    background-color:  #fcb404;
+.escuela {
+    background-color: #fcb404;
+}
+
+.tecno {
+    background-color: #ac940c;
+}
+
+.basicos-ini h3,
+.basicos-ini p,
+.basicos-ini h2 {
+    color: #7c0c44;
+}
+
+.basicos-ini button {
+    background-color: #7c0c44;
+}
+
+.diver-ini h3,
+.diver-ini p,
+.diver-ini h2 {
+    color: #24346c;
+}
+
+.diver-ini button {
+    background-color: #24346c;
+}
+
+.escuela-ini h3,
+.escuela-ini p,
+.escuela-ini h2 {
+    color: #fcb404;
+}
+
+.escuela-ini button {
+    background-color: #fcb404;
+}
+
+/*Sponsors*/
+.Kinal-sponsors-album {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+.Kinal-sponsors-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Kinal-sponsors-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Kinal-sponsors-image {
+    width: 200px;
+    margin: 10px;
+}
+
+.Kinal-sponsors-image img {
+    max-width: 100%;
+    height: auto;
 }
