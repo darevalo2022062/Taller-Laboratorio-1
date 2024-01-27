@@ -55,7 +55,7 @@ html {
     color: #ffd700;
 }
 
-.kinal {
+.kinall {
     margin-right: 0;
 }
 
@@ -482,15 +482,15 @@ html {
 
 /*SOMOS INFO*/
 
-.somos-kinal-infoKinal{
-    background-color:  rgb(20, 36, 60);
+.somos-kinal-infoKinal {
+    background-color: rgb(20, 36, 60);
     padding-top: 5vh;
     padding-bottom: 15vh;
     text-align: center;
     color: white;
 }
 
-.somos-kinal-sobreKinal-container{
+.somos-kinal-sobreKinal-container {
     margin-top: 5vh;
     margin-bottom: 5vh;
     display: grid;
@@ -499,18 +499,18 @@ html {
     place-items: center;
 }
 
-.somos-kinal-sobreKinal-container p{
+.somos-kinal-sobreKinal-container p {
     text-align: center;
     padding-left: 55vh;
     padding-right: 55vh;
 }
 
-.somos-kinal-sobreKinal-container h1{
+.somos-kinal-sobreKinal-container h1 {
     color: rgb(20, 36, 60);
     font-size: xx-large;
 }
 
-.patronato-kinal{
+.patronato-kinal {
     display: block;
     text-align: center;
     background-color: rgb(20, 36, 60);
@@ -518,7 +518,189 @@ html {
     color: white;
 }
 
-.patronato-kinal img{
+.patronato-kinal img {
     max-width: 100%;
     height: auto;
+}
+
+/*Educación*/
+
+.kinal-educacion-basicos {
+
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kinal-educacion-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.kinal-educacion-titulo-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.kinal-educacion-titulo-imagen h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.kinal-educacion-titulo-imagen img {
+    max-width: 40%;
+    height: auto;
+}
+
+.kinal-educacion-contenido {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.kinal-educacion-contenido h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.kinal-educacion-contenido p {
+    color: #666;
+    margin-bottom: 20px;
+
+}
+
+.basicos-ini h3,
+.basicos-ini p,
+.basicos-ini h2 {
+    color: #7c0c44;
+}
+
+.basicos-ini button{
+    background-color:#7c0c44 ;
+}
+
+.diver-ini h3,
+.diver-ini p,
+.diver-ini h2 {
+    color: #24346c;
+}
+
+.diver-ini button{
+    background-color: #24346c;
+}
+
+
+.kinal-educacion-botones {
+    display: flex;
+    justify-content: center;
+}
+
+.kinal-educacion-botones button {
+    padding: 10px 20px;
+    margin: 0 5px;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kinal-educacion-botones button:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.kinal-educacion-contenido {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.kinal-educacion-titulo-imagen {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (max-width: 768px) {
+
+
+    .kinal-educacion-titulo-imagen {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .kinal-educacion-titulo-imagen h2 {
+        font-size: 1.5em;
+    }
+
+    .kinal-educacion-titulo-imagen img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/*Info de básicos*/
+.kinal-educacion-basicos-info {
+    padding: 20px;
+    background-color: white;
+}
+
+.kinal-educacion-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.kinal-educacion-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.kinal-educacion-col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.kinal-educacion-col {
+    flex: 1;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.kinal-educacion-col h2 {
+    text-align: center;
+    color: white;
+}
+
+.kinal-educacion-col p {
+    text-align: center;
+    color: white;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.basicos {
+    background-color: #7c0c44;
+}
+
+.diver {
+    background-color: #24346c;
+}
+
+.escuela{
+    background-color:  #fcb404;
 }
